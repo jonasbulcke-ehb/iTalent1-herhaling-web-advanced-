@@ -1,0 +1,19 @@
+[{
+    "name": "Jonas Bulcke",
+    "age": 22,
+    "degree": "toegepaste informatica",
+    "courses": ["Web Advanced", ".Net Advanced", "iOS Development"]
+
+}, {
+
+    "name": "Thomas Janssens",
+    "age": 33,
+    "degree": "toegepaste informatica",
+    "courses": ["Programming Essentials 1", "Programming Enssentials 2"]
+}, {
+    "name" : "Lore Deleeuw",
+    "age" : 24,
+    "degree" : "toegepaste informatica",
+    "courses": [".Net Advanced", "iOS Development", "integration project"]
+}
+]

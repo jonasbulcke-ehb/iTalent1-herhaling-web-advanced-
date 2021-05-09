@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <title>Full stack tutorial</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Tutorial Full stack webapp with NodeJS</h2>
+        <button class="btn btn-primary" id="list-btn">List books</button>
+        <button class="btn btn-secondary" id="insert-btn">Insert book</button>
+        <hr>
+
+        <div id="book-list">
+
+        </div>
+        <div id="insert-book" style="display: none">
+            <form id="insert-form">
+                <div class="mb-3">
+                    <label for="title">Title</label>
+                    <input type="text" name="title" id="title" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label for="author">Author</label>
+                    <input type="text" name="author" id="author" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label for="price">Price</label>
+                    <input type="number" name="price" id="price" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label for="publisher">Publisher</label>
+                    <input type="text" name="publisher" id="publisher" class="form-control">
+                </div>
+                <button type="submit" id="submitBtn" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+            crossorigin="anonymous"></script>
+</body>
+</html>

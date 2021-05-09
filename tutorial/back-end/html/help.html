@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+
+    <title>Help page</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Welcome to my Node server. Use specific paths to test functionality</h2>
+
+        <ul>
+            <li><strong>/getBooks:</strong> GET-request that returns a list of books in json format from the DB</li>
+            <li>
+                <strong>/insertBook</strong>
+                POST-request that saves a book to the DB. <br/>
+                Example Data:
+                <code>
+                    {"title":"The Da Vinci code", "author":"Dan Brown", "price":20, "publisher":"Random House"}
+                </code>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+</body>
+</html>
